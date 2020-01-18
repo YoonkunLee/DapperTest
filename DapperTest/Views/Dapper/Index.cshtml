@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+<form method="post" action="/Dapper/Create">
+    <input type="text" name="Email" />
+    <input type="password" name="Password" />
+    <input type="submit" name="Create" />
+</form>
+
+<form action="/Dapper/Update">
+    <input type="text" name="Email" />
+    <input type="password" name="Password" />
+    <input type="submit" name="Update" />
+</form>
